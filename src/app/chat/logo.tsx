@@ -6,7 +6,7 @@ const Logo = () => {
         <div className='w-12 ml-1.5'>
             <Image
                 className="dark:invert"
-                src="/67d83e9488c538a9b5c001fc.svg"
+                src="https://pic1.imgdb.cn/item/67d83e9488c538a9b5c001fc.jpg"
                 alt="ZHIWUYA logo"
                 width={38}
                 height={38}

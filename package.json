@@ -1,12 +1,15 @@
 {
+  "homepage": "https://zhiheya.github.io/zhiheyaai",
   "name": "dw-chat-web-lite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "predeploy": "touch out/.nojekyll",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
@@ -29,6 +32,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

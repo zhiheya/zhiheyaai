@@ -9,7 +9,6 @@ const { useToken } = theme;
  */
 const FooterPage = () => {
     const { token } = useToken();
-
     return (
         <RouteContext.Consumer>
             {(value: RouteContextType) => {

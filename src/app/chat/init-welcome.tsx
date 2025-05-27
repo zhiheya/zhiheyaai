@@ -150,7 +150,7 @@ const InitWelcome = (props: Props) => {
                 icon="https://pic1.imgdb.cn/item/67d83ea588c538a9b5c00209.gif"
                 title={
                     <span className="title-gradient">
-                        你好，欢迎来到知无涯的DeepSeek   U•ェ•*U
+                        你好，欢迎来到知无涯的DeepSeek   ฅ՞•ﻌ•՞ฅ 
                     </span>
                 }
                 description={<TypewriterBackspace text="愿你踏遍山河万里，览尽世间繁华，再以澄明之心，品评人间百态（〃｀ 3′〃）" />}
@@ -164,7 +164,7 @@ const InitWelcome = (props: Props) => {
 
             {/* 提示词 */}
             <Prompts
-                title={<span className="label-gradie">不知道要做什么？</span>}
+                title={<span className="label-gradie ">不知道要做什么？</span>}
                 items={promptItems}
                 styles={{
                     list: { width: '100%' },
@@ -178,7 +178,6 @@ const InitWelcome = (props: Props) => {
                         }
                         return '';
                     };
-
                     const text = extractText(data.description);
                     if (text) {
                         props.handleSubmit(text);

@@ -563,12 +563,12 @@ const ChatPage = () => {
                 </Flex>
 
                 <Flex align='center' gap='small'>
-                    <Tooltip title={'上传附件'} placement='top'>
+                    {/* <Tooltip title={'上传附件'} placement='top'>
                         <Button
                             type='text'
                             icon={<PaperClipOutlined rotate={135} style={{ fontSize: '18px', marginTop: '7px' }} />}
                         />
-                    </Tooltip>
+                    </Tooltip> */}
                     {
                         !agent.isRequesting() ?
                             (
